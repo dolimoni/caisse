@@ -1,0 +1,22 @@
+18:27:58  : Triyng to save artice : Caisse1.Article
+18:29:28  : Triyng to save artice : Caisse1.Article
+01/09/2017 18:31:57 : Triyng to save artice : Caisse1.Article
+01/09/2017 18:50:48 : Triyng to save artice : Caisse1.Article
+01/09/2017 18:52:03 : Triyng to save artice : Caisse1.Article
+01/09/2017 18:53:53 : Triyng to save artice : Caisse1.Article
+01/09/2017 18:59:52 : Triyng to save artice : Caisse1.Article
+01/09/2017 20:09:49 : Triyng to save artice : Caisse1.Famille
+01/09/2017 20:43:42 : Triyng to save artice : Caisse1.Famille
+01/09/2017 20:47:55 : Triyng to save artice : Caisse1.Famille
+02/09/2017 13:55:56 : Triyng to save artice : Caisse1.Famille
+02/09/2017 13:57:48 : Triyng to save artice : Caisse1.Famille
+02/09/2017 14:32:06 : Triyng to save artice : Caisse1.Famille
+02/09/2017 14:39:19 : Triyng to save artice : Caisse1.Famille
+02/09/2017 14:40:06 : Triyng to save artice : Caisse1.Famille
+02/09/2017 14:51:11 : Triyng to save artice : Caisse1.Famille
+02/09/2017 14:53:06 : Triyng to save artice : Caisse1.Famille
+02/09/2017 14:54:20 : Triyng to save artice : Caisse1.Famille
+02/09/2017 14:56:11 : Triyng to save artice : Caisse1.Famille
+02/09/2017 14:58:32 : Triyng to save artice : Caisse1.Famille
+02/09/2017 15:01:09 : Triyng to save artice : Caisse1.Famille
+02/09/2017 15:02:14 : Triyng to save artice : Caisse1.Famille

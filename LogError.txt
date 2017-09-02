@@ -1,0 +1,373 @@
+18:27:58  : System.InvalidOperationException: ExecuteNonQuery nécessite une Connection ouverte et disponible. La connexion est actuellement fermée.
+   à System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   à System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+01/09/2017 18:53:53 : System.InvalidOperationException: Impossible d'ajouter par programmation des lignes à la collection de lignes DataGridView lorsque le contrôle est lié aux données.
+   à System.Windows.Forms.DataGridViewRowCollection.Add(DataGridViewRow dataGridViewRow)
+   à Caisse1.Form1.form2_VisibleChanged(Object sender, EventArgs e) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\Form1.cs:ligne 117
+01/09/2017 20:43:47 : System.Data.SqlClient.SqlException (0x80131904): La requête paramétrable '(@id int,@Nom nvarchar(4000))INSERT INTO dbo.famille(Nom) values' attend le paramètre @Nom, qui n'a pas été fourni.
+   à System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   à System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   à System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 29
+ClientConnectionId :23e2aaca-1419-4663-b075-caa8deed00d7
+Error Number :8178,State :1,Class :16
+01/09/2017 20:47:56 : System.Data.SqlClient.SqlException (0x80131904): La requête paramétrable '(@id int,@Nom nvarchar(4000))INSERT INTO dbo.famille(Nom) values' attend le paramètre @Nom, qui n'a pas été fourni.
+   à System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   à System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   à System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 29
+ClientConnectionId :2009f30a-f7e3-48ce-ac5d-fcf2223d5263
+Error Number :8178,State :1,Class :16
+02/09/2017 13:56:02 : System.Data.SqlClient.SqlException (0x80131904): La requête paramétrable '(@id int,@Nom nvarchar(4000))INSERT INTO dbo.famille(Nom) values' attend le paramètre @Nom, qui n'a pas été fourni.
+   à System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   à System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   à System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 29
+ClientConnectionId :b0672782-1190-4bbe-a05f-731bfd2ac491
+Error Number :8178,State :1,Class :16
+02/09/2017 13:57:50 : System.Data.SqlClient.SqlException (0x80131904): La requête paramétrable '(@id int,@Nom nvarchar(4000))INSERT INTO dbo.famille(Nom) values' attend le paramètre @Nom, qui n'a pas été fourni.
+   à System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   à System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   à System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 29
+ClientConnectionId :5a101539-89c9-430f-a857-37ea4e36345e
+Error Number :8178,State :1,Class :16
+02/09/2017 14:32:06 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 28
+02/09/2017 14:39:20 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 28
+02/09/2017 14:40:06 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 28
+02/09/2017 14:51:11 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 28
+02/09/2017 14:53:06 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 28
+02/09/2017 14:54:20 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 29
+02/09/2017 14:56:11 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 29
+02/09/2017 14:58:32 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 29
+02/09/2017 15:01:11 : System.ObjectDisposedException: Impossible d'écrire dans un TextWriter fermé.
+   à System.IO.__Error.WriterClosed()
+   à System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   à System.IO.StreamWriter.Write(Char[] buffer, Int32 index, Int32 count)
+   à System.IO.TextWriter.WriteLine(String value)
+   à Caisse1.CaisseLogger.LogInfo(String lines) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\Logger.cs:ligne 23
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 31
+02/09/2017 15:02:14 : System.ObjectDisposedException: Impossible d'écrire dans un TextWriter fermé.
+   à System.IO.__Error.WriterClosed()
+   à System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   à System.IO.StreamWriter.Write(Char[] buffer, Int32 index, Int32 count)
+   à System.IO.TextWriter.WriteLine(String value)
+   à Caisse1.CaisseLogger.LogInfo(String lines) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\Logger.cs:ligne 23
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 31
+02/09/2017 15:05:38 : System.Data.SqlClient.SqlException (0x80131904): La requête paramétrable '(@Nom nvarchar(4000))INSERT INTO dbo.famille(Nom) values(@Nom)' attend le paramètre @Nom, qui n'a pas été fourni.
+   à System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   à System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   à System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 30
+ClientConnectionId :0daa1768-1ed4-42af-9419-4477ee043526
+Error Number :8178,State :1,Class :16
+02/09/2017 15:05:55 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+02/09/2017 15:40:19 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleFormGlobal.FillData(SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleFormGlobal.cs:ligne 55
+02/09/2017 15:40:24 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\docume02/09/2017 20:13:28 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+02/09/2017 20:15:06 : System.Data.SqlClient.SqlException (0x80131904): La requête paramétrable '(@id int,@Nom nvarchar(4000),@Prix float,@Stock int,@Image nvarc' attend le paramètre @Nom, qui n'a pas été fourni.
+   à System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   à System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   à System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 54
+ClientConnectionId :7f2c11d4-1c94-4462-b972-ddb236f0bbd9
+Error Number :8178,State :1,Class :16
+02/09/2017 20:15:34 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+02/09/2017 20:16:20 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleFormGlobal.FillData(SqlConnection conn) dans C:\Users\SERIALIZABLE\docu02/09/2017 20:24:48 : System.Data.SqlClient.SqlException (0x80131904): La requête paramétrable '(@Nom nvarchar(4000))INSERT INTO dbo.famille(Nom) values(@Nom)' attend le paramètre @Nom, qui n'a pas été fourni.
+   à System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   à System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   à System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 30
+ClientConnectionId :407f6389-b586-46dc-bf1c-90ac97eb34d1
+Error Number :8178,State :1,Class :16
+02/09/2017 20:25:00 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+02/09/2017 20:25:20 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+02/09/2017 20:29:46 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+02/09/2017 20:29:55 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleFormGlobal.FillData(SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleFormGlobal.cs:ligne 55
+02/09/2017 20:29:57 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 29
+02/09/2017 20:30:06 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleFormGlobal.FillData(SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleFormGlobal.cs:ligne 55
+02/09/2017 20:30:07 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 29
+02/09/2017 20:30:25 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleFormGlobal.FillData(SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleFormGlobal.cs:ligne 55
+02/09/2017 20:30:38 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 29
+02/09/2017 20:33:23 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+02/09/2017 20:33:24 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleFormGlobal.FillData(SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleFormGlobal.cs:ligne 55
+02/09/2017 20:33:39 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 29
+02/09/2017 20:33:55 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+02/09/2017 20:34:07 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+02/09/2017 20:45:53 : System.Inval02/09/2017 21:25:22 : System.Data.SqlClient.SqlException (0x80131904): La requête paramétrable '(@Nom nvarchar(4000))INSERT INTO dbo.famille(Nom) values(@Nom)' attend le paramètre @Nom, qui n'a pas été fourni.
+   à System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   à System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   à System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 30
+ClientConnectionId :b6e855d7-3915-49f7-884a-0cb059fcee73
+Error Number :8178,State :1,Class :16
+02/09/2017 21:25:28 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleFormGlobal.FillData(SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleFormGlobal.cs:ligne 55
+02/09/2017 21:25:31 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 29
+02/09/2017 21:25:41 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+02/09/2017 21:27:02 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+02/09/2017 21:27:21 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+02/09/2017 21:28:23 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleFormGlobal.FillData(SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleFormGlobal.cs:ligne 55
+02/09/2017 21:28:27 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 29
+02/09/2017 21:29:31 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleFormGlobal.FillData(SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleFormGlobal.cs:ligne 55
+02/09/2017 21:29:37 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.02/09/2017 21:30:43 : System.Data.SqlClient.SqlException (0x80131904): La requête paramétrable '(@Nom nvarchar(4000))INSERT INTO dbo.famille(Nom) values(@Nom)' attend le paramètre @Nom, qui n'a pas été fourni.
+   à System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   à System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   à System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   à System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   à System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   à System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   à Caisse1.FamilleRepository.save(Famille famille, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\FamilleRepository.cs:ligne 30
+ClientConnectionId :72d604bf-761b-44e2-9843-170d1af798db
+Error Number :8178,State :1,Class :16
+02/09/2017 21:34:16 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+02/09/2017 22:00:11 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.ArticleRepository.save(Article article, SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Caisse1\Caisse1\ArticleRepository.cs:ligne 53
+02/09/2017 22:00:13 : System.InvalidOperationException: La connexion n'est pas fermée. L'état actuel de la connexion est ouvert.
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à Caisse1.FamilleFormGlobal.FillData(SqlConnection conn) dans C:\Users\SERIALIZABLE\documents\visual studio 2017\Projects\Cais
